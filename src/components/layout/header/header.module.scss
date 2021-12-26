@@ -1,0 +1,42 @@
+.header {
+    background-color: #DFE6E6;   
+}
+.wrap {
+    padding: 17px 65px 16px;
+    display: flex;
+    justify-content: space-between;
+}
+.btns {
+    font-size: 14px;
+    line-height: 22px;
+    margin-right: 32px;
+    .lang {
+        background-color: transparent;
+        border: none;
+    }
+}
+.menu {
+    display: flex;
+    justify-content: start;
+    .list {
+        display: flex;
+        .item {
+            padding-right: 32px;
+            list-style-type: none;
+            .link {
+                font-size: 14px;
+                line-height: 17px;
+                text-decoration: none;
+                color: #2A2B29;
+            }
+        }
+    }
+}
+.log {
+    .btn {
+        color: #2771A3;
+        border: none;
+        text-decoration: underline;
+        background-color: transparent;
+    }
+}

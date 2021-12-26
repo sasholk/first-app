@@ -1,0 +1,13 @@
+.footer {
+  background-color: #4D5329;
+  flex: 0 0 auto;
+  .wrap {
+    padding: 27px 60px;
+    .name {
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 22px;
+      color: #fff;
+    }
+  }
+}
